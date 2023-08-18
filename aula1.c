@@ -2,7 +2,7 @@
 #include <locale.h>
 
 
-void main (){
+int  main (int arg, char* argv[]){
     setlocale(LC_ALL,  'Portuguese');
     printf("Olá, mundo");
 }
