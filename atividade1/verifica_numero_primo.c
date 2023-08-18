@@ -1,29 +1,26 @@
 #include <stdio.h>
-/*Crie um programa em linguagem C que recebe um número e imprime no console:
+#include <stdlib.h>
 
-0 - se o número não for primo;
+int main(int argc, char* argv[]){
+    int numero, i;
 
-1 - se o número for primo.*/
+    numero = atoi(argv[1]);
 
-int verifica_num_primo( int numero){
-    int numero, i, resultado = 0;
-    for (i = 2; i <= numero / 2; i++) {
-    if (numero % i == 0) {
-       resultado++;
-       break;
+    if(numero <= 1){
+        printf("0");
+    }else{
+        for(i=3; i < numero; i+=2){
+            if(numero%i==0){
+                printf("0");
+                break;
+            }
+        }
+        if(i==numero){
+            printf("1");
+        }
     }
- }
- 
- if (resultado == 0)
-    printf("1");
- else
-    printf("0");
+
+    return 0;
 }
-
-int  main (int argc, char* argv[]){
-    printf("\n %d ",verifica_num_primo(atoi(argv[1])));
-}
-
-
 
 
