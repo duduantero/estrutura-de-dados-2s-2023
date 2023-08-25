@@ -3,7 +3,17 @@
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    char array[3];
+    char string;
+    int j;
+    for (int i = 0; i < 3; i++)
+    {
+        array[i] = argv[i+1];
+        j = i;
+        if (array[i] == array[j]){
+            return 1;
+        }
+    }
     return 0;
 }
 
