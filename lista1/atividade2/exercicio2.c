@@ -6,7 +6,6 @@ int main(int argc, char const *argv[])
 {
     setlocale(LC_ALL,"Portuguese");
     int numero[4];
-    int total =0;
     int menor,maior;
 
     for (int i = 1; i < 5; i++){

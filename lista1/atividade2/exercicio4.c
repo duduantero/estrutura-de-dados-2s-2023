@@ -3,7 +3,22 @@
 
 int main(int argc, char const *argv[])
 {
-    /* code */
+    int array[9];
+    int op = 0;
+    
+   while (op == 0)
+   {
+    for(int i = 0; i< 9; i++){
+    printf("Informe um número");
+    scanf("%d",&array[i]);
+   }
+
+   }
+   
+   
+    
+    
+    
     return 0;
 }
 

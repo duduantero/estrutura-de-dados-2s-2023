@@ -4,17 +4,18 @@
 int main(int argc, char const *argv[])
 {
     char array[3];
-    char string;
+    char string[1] = {*argv[3]};
     int j;
     for (int i = 0; i < 3; i++)
     {
-        array[i] = argv[i+1];
+        array[i] = *argv[i+1];
         j = i;
-        if (array[i] == array[j]){
+        if (array[i] == string[1]){
             return 1;
         }
     }
     return 0;
+    
 }
 
 
