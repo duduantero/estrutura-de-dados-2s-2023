@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "*.embeddedhtml": "html",
+        "stdio.h": "c",
+        "pilha.h": "c",
+        "stdlib.h": "c"
     }
 }
