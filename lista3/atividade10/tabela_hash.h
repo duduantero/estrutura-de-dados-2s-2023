@@ -1,4 +1,10 @@
-char* get(char* chave)
-void put(char* chave, char* dado)
+#define TAM_ALFABETO 26
+#define TAM_TABELA TAM_ALFABETO*TAM_ALFABETO
+#define TAM_VALOR 255
 
-criar HashMap(int capacidade,);
+int hash(char* chave);
+char** tabela_hash();
+void put(char* chave, char* valor, char** tabela);
+char* get(char* chave, char** tabela);
+int contains(char* chave, char** tabela);
+void remove(char* chave, char** tabela);
