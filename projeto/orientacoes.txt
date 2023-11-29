@@ -1,0 +1,32 @@
+Operações a serem Implementadas:
+
+Inserção:
+
+Implemente uma função que insere um valor em sua posição apropriada na ABB.
+Remoção:
+
+Implemente uma função que remove um valor da ABB, mantendo a propriedade de ABB.
+Busca:
+
+Implemente uma função que busca um valor na ABB e retorna verdadeiro se o valor estiver presente, falso caso contrário.
+Percursos na Árvore:
+
+Implemente funções para percorrer a árvore em ordem (inorder), pré-ordem (preorder) e pós-ordem (postorder).
+Mínimo e Máximo:
+
+Implemente funções que retornem o valor mínimo e máximo presentes na ABB.
+Funções Principais:
+
+Você deve implementar todas as operações mencionadas acima. A estrutura da árvore será mantida por meio de um ponteiro para o nó raiz, chamado de root.
+
+Teste:
+
+No programa principal (main), você deve realizar testes de todas as operações. Por exemplo:
+
+Inserir valores em diferentes posições.
+Remover valores da árvore.
+Realizar buscas por valores e verificar se estão presentes.
+Percorrer a árvore em diferentes ordens e exibir os valores.
+Liberar Memória:
+
+Não se esqueça de liberar a memória alocada para os nós da árvore quando não forem mais necessários, a fim de evitar vazamentos de memória.
